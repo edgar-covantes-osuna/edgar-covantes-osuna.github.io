@@ -1,8 +1,3 @@
-# Certification badges: source data, not site assets.
-# Nothing in the HTML references them - the site links to credential.net instead.
-# Delete this rule if the badges are ever displayed on the page.
-assets/img/certificaciones/
-
 # System
 .DS_Store
 Thumbs.db

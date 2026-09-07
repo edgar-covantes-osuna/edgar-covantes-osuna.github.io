@@ -1207,3 +1207,29 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+/*--------------------------------------------------------------
+# Certification badges
+--------------------------------------------------------------*/
+.resume .resume-item.has-badge {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.resume .resume-item .cert-badge {
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+}
+
+.resume .resume-item .cert-body {
+  min-width: 0;
+}
+
+@media (max-width: 575px) {
+  .resume .resume-item .cert-badge {
+    width: 48px;
+    height: 48px;
+  }
+}
